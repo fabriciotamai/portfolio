@@ -43,18 +43,10 @@ export function Main() {
           </ContentBallmessage>
           <ContainerontentBallAfter />
         </ContentMessage> */}
-
-        <ContentREACT>
-          <img
-            src={IconReact}
-            alt="tteste"
-            style={{
-              width: '80px',
-              height: '80px',
-            }}
-          />
-        </ContentREACT>
-        <ContentPhp>
+        {/* <ContentStack>
+          <Imgjs src={IconJS} />
+        </ContentStack> */}
+        {/* <ContentPhp>
           <img
             src={IconPhp}
             alt="tteste"
@@ -63,10 +55,8 @@ export function Main() {
               height: '80px',
             }}
           />
-        </ContentPhp>
-
-        <ImageMain src={ImgMain} />
-        <ContentNode>
+        </ContentPhp> */}
+        {/* <ContentNode>
           <img
             src={IconNode}
             alt="tteste"
@@ -75,10 +65,19 @@ export function Main() {
               height: '70px',
             }}
           />
-        </ContentNode>
-        <ContentStack>
-          <Imgjs src={IconJS} />
-        </ContentStack>
+        </ContentNode> */}
+        {/* <ContentREACT>
+          <img
+            src={IconReact}
+            alt="tteste"
+            style={{
+              width: '80px',
+              height: '80px',
+            }}
+          />
+        </ContentREACT> */}
+
+        <ImageMain src={ImgMain} />
       </Brainstorm>
       <SectionForm>
         <ButtonDev>
@@ -94,9 +93,7 @@ export function Main() {
           "Eu desenho e codifico coisas lindamente simples e adoro fazer"
         </DescriptionStacks>
         <LestsChat>LETS CHAT!</LestsChat>
-        <ImgFooter src={IconLight} />
-
-        {/* <Lottie animationData={MyAnimation} /> */}
+        {/* <ImgFooter src={IconLight} /> */}
       </SectionForm>
     </Container>
   )

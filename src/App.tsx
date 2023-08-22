@@ -17,9 +17,9 @@ export default function App() {
         background: 'linear-gradient(to right, #181818, #191718, #131212)',
       }}
     >
-      <Header />
+      {/* <Header /> */}
       <Main />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   )
 }

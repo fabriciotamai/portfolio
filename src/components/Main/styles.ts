@@ -1,4 +1,5 @@
 import { keyframes, styled } from '../../styles/index'
+import { ReactSVG } from 'react-svg'
 
 const rotate = keyframes({
   '0%': { transform: 'rotate(0deg)' },
@@ -8,36 +9,51 @@ const rotate = keyframes({
 export const Container = styled('section', {
   display: 'flex',
   height: 'calc(100% - 0px)',
-  magin: 'auto',
-  paddingTop: '7rem',
+  // padding: '0 7rem',
   flexDirection: 'column',
-  justifyContent: 'flex-end',
-  '@media (min-width: 768px)': {
+  alignItems: 'center',
+  // justifyContent: 'center',
+
+  '@media (min-width: 767px)': {
     flexDirection: 'row',
+    alignItems: 'flex-end',
+    justifyContent: 'space-between',
   },
 })
+
+export const SvgNode = styled(ReactSVG, {
+  width: '0.25rem',
+  height: '0.25rem',
+})
 export const Brainstorm = styled('div', {
-  width: '800px',
-  height: '800px',
-  borderRadius: '800px',
-  // left: '0px',
-  right: '300px',
-  // right: '20px',
-  position: 'relative',
+  width: '17rem',
+  height: '17rem',
+  display: 'flex',
+  // padding: '2rem',
+  alignItems: 'flex-end',
+  // justifyContent: 'flex-end',
+  marginTop: '0rem',
+
+  // position: 'relative',
+  borderRadius: '50rem',
+  // alignSelf: 'flex-end',
+  // right: '0px',
+
   background: 'linear-gradient(to right, #131212, #2b2a2a, #131212)',
 })
 
 export const SectionForm = styled('section', {
   flexDirection: 'col',
-  maxWidth: '480px',
-  paddingRight: '13rem',
+  padding: '2rem 2rem',
+  // margin: '1rem 0rem',
+  maxWidth: '567px',
+  alignItem: 'flex-start',
+  justifyContent: 'flex-start',
 })
 
 export const ButtonDev = styled('button', {
   backgroundColor: '#71faa8',
-  // background: 'linear-gradient(to right, #131212, #2b2a2a, #131212)',
   border: 'none',
-  // padding: '0.02 2rem',
   borderRadius: '0.25rem',
 })
 export const ContentMessage = styled('div', {
@@ -55,7 +71,6 @@ export const ContentBallmessage = styled('div', {
   alignItems: 'center',
   justifyContent: 'center',
   padding: '0.25rem',
-
   border: '2px solid #71faa8',
   borderRadius: '2rem',
   display: 'inline-block',
@@ -65,7 +80,6 @@ export const ContentBallmessage = styled('div', {
 })
 
 export const DescriptionMessage = styled('p', {
-  // padding: '2rem 0',
   textAlign: 'center',
 })
 
@@ -91,9 +105,9 @@ export const TitleRole = styled('h5', {
 })
 
 export const TitleName = styled('h4', {
-  padding: '2rem 0',
-  lineHeight: '3.5rem',
-  fontSize: '3.0rem',
+  padding: '2rem 0rem',
+  lineHeight: '1.5rem',
+  fontSize: '1.2rem',
   fontFamily: 'monospace',
   fontWeight: 'lighter',
 })
@@ -102,20 +116,18 @@ export const DescriptionStacks = styled('p', {
   color: '#fff',
   opacity: 0.6,
   fontFamily: 'monospace',
-  // fontWeight: 'initial',
   lineHeight: '1.5rem',
   fontSize: '1rem',
-  // textDecoration:''
   padding: '0.25rem 0',
 })
 
 export const ContentStack = styled('div', {
-  width: '150px',
-  height: '150px',
+  width: '10rem',
+  height: '10rem',
   display: 'flex',
-  position: 'absolute',
+  position: 'relative',
+  // position: 'absolute',
   top: '500px',
-
   bottom: '0',
   '&:hover': {
     animation: `${rotate} 10s linear infinite`,
@@ -130,9 +142,9 @@ export const ContentPhp = styled('div', {
   width: '100px',
   height: '100px',
   display: 'flex',
-  position: 'absolute',
+  position: 'relative',
   top: '500px',
-  right: '-50px',
+  // right: '-100px',
   zIndex: 99,
   bottom: '0',
   '&:hover': {
@@ -144,13 +156,11 @@ export const ContentPhp = styled('div', {
   background: 'linear-gradient(to right, #131212, #2b2a2a, #131212)',
 })
 
+export const IconNode = styled('ReactSVG', {})
+
 export const Imgjs = styled('img', {
-  // opacity: 0.5,
   width: '100px',
   height: '100px',
-  // '&:hover': {
-  //   opacity: 1,
-  // },
   alignItems: 'center',
   justifyContent: 'center',
 })
@@ -159,13 +169,11 @@ export const ContentREACT = styled('div', {
   width: '140px',
   height: '140px',
   display: 'flex',
-
   top: '190px',
-  right: '-30px',
-  // opacity: 0.5,
-  position: 'absolute',
+  // right: '-30px',
+  // position: 'absolute',
+  position: 'relative',
   zIndex: '100',
-  // '&:hover': {
   '&:hover': {
     animation: `${rotate} 10s linear infinite`,
   },
@@ -176,13 +184,12 @@ export const ContentREACT = styled('div', {
 })
 
 export const ContentNode = styled('div', {
-  width: '100px',
+  width: '120px',
   height: '100px',
   display: 'flex',
-  top: '60px',
-
-  left: '130px',
-  position: 'absolute',
+  // top: '-200px',
+  // left: '1320px',
+  position: 'relative',
   zIndex: '100',
   '&:hover': {
     animation: `${rotate} 10s linear infinite`,
@@ -195,7 +202,6 @@ export const ContentNode = styled('div', {
 
 export const LestsChat = styled('p', {
   color: '#71faa8',
-  // opacity: 0.6,
   magin: 'auto',
   fontFamily: 'inherit',
   textDecoration: 'underline',
@@ -206,28 +212,31 @@ export const LestsChat = styled('p', {
 })
 
 export const ImageMain = styled('img', {
-  // borderRadius: '450px',
-  // backgroundColor: 'red',
   objectFit: 'contain',
-  position: 'absolute',
   // top: '100px',
-  bottom: '0px',
-  zIndex: '99px',
-  // right: '100px',
-  left: '-100px',
-  padding: '0 10rem',
+  zIndex: '999px',
   alignSelf: 'flex-end',
-  // alignItems: 'flex-end',
-  // justifyContent: 'flex-end',
+  alignItems: 'flex-end',
+  justifyContent: 'flex-end',
+  display: 'flex',
+  // top: '50%',
+  // left: '50%',
+  // transform: ' translate(-50%, -50%)',
+  width: '300px',
+  '@media (min-width: 1280px)': {
+    width: '400px',
+  },
 
-  width: '900px',
+  // position: 'absolute',
 })
 
 export const ImgFooter = styled('img', {
-  width: '300px',
-  height: '300px',
+  width: '200px',
+  height: '200px',
+  display: 'flex',
+  alignSelf: 'center',
   opacity: 0.2,
-  marginLeft: '8rem',
+  // marginLeft: '8rem',
   '&:hover': {
     opacity: 1,
     animation: `${rotate} 10s linear infinite`,
