@@ -93,7 +93,7 @@ export function Main() {
           "Eu desenho e codifico coisas lindamente simples e adoro fazer"
         </DescriptionStacks>
         <LestsChat>LETS CHAT!</LestsChat>
-        {/* <ImgFooter src={IconLight} /> */}
+        <ImgFooter src={IconLight} />
       </SectionForm>
     </Container>
   )

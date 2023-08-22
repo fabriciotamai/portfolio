@@ -234,6 +234,8 @@ export const ImgFooter = styled('img', {
   width: '200px',
   height: '200px',
   display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
   alignSelf: 'center',
   opacity: 0.2,
   // marginLeft: '8rem',

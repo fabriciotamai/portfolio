@@ -1,7 +1,7 @@
 // import { HeaderContainer } from './styles'
 
-import { Footer } from './components/Footer'
-import { Header } from './components/Header/index'
+// import { Footer } from './components/Footer'
+// import { Header } from './components/Header/index'
 import { Main } from './components/Main'
 import { globalStyles } from './styles/global'
 
