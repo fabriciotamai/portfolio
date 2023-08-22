@@ -8,26 +8,26 @@ import {
   DescriptionStacks,
   ButtonDev,
   LestsChat,
-  ContentStack,
-  ContentREACT,
-  Imgjs,
-  ContentNode,
+  // ContentStack,
+  // ContentREACT,
+  // Imgjs,
+  // ContentNode,
   ImgFooter,
-  ContentBallmessage,
-  DescriptionMessage,
-  ContainerontentBallAfter,
-  ContentMessage,
-  ContentPhp,
+  // ContentBallmessage,
+  // DescriptionMessage,
+  // ContainerontentBallAfter,
+  // ContentMessage,
+  // ContentPhp,
 } from './styles'
 
 import ImgMain from '../../assets/hackbg.png'
-import IconJS from '../../assets/iconJS.svg'
-import IconReact from '../../assets/iconReact.svg'
-import IconNode from '../../assets/iconNODE.svg'
+// import IconJS from '../../assets/iconJS.svg'
+// import IconReact from '../../assets/iconReact.svg'
+// import IconNode from '../../assets/iconNODE.svg'
 import IconLight from '../../assets/iconLight.svg'
-import IconPhp from '../../assets/iconPhp.svg'
+// import IconPhp from '../../assets/iconPhp.svg'
 
-import MyAnimation from '../../../9KephTIg5W.json'
+// import MyAnimation from '../../../9KephTIg5W.json'
 
 export function Main() {
   return (

@@ -3,13 +3,13 @@ import {
   NavHeader,
   ButtonNav,
   ImgIcon,
-  ImageLogo,
+  // ImageLogo,
   Title,
 } from './styles'
 import IconLikedin from '../../assets/iconLinkedin.svg'
 import IconGitHub from '../../assets/iconGithub.svg'
 
-import Logo from '../../../src/assets/Logo.png'
+// import Logo from '../../../src/assets/Logo.png'
 export function Header() {
   return (
     <HeaderContainer>

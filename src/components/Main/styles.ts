@@ -156,7 +156,7 @@ export const ContentPhp = styled('div', {
   background: 'linear-gradient(to right, #131212, #2b2a2a, #131212)',
 })
 
-export const IconNode = styled('ReactSVG', {})
+// export const IconNode = styled('ReactSVG', {})
 
 export const Imgjs = styled('img', {
   width: '100px',
